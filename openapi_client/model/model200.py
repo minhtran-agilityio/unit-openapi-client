@@ -28,6 +28,7 @@ from openapi_client.model_utils import (  # noqa: F401
 
 def lazy_import():
     from openapi_client.model.model200_data import Model200Data
+    from openapi_client.model.200_data import 200Data
     globals()['200Data'] = 200Data
 
 
